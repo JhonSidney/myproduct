@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+ .borderxp{
+     border: 1px solid rgb(108, 172, 255);
+ }
