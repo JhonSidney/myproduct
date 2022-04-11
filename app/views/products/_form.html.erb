@@ -1,0 +1,26 @@
+<%= bootstrap_form_for(product) do |form| %>
+ 
+  <div>
+    <%= form.text_field :category %>
+  </div>
+
+  <div>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.text_area :description %>
+  </div>
+
+  <div>
+    <%= form.text_field :price %>
+  </div>
+
+  <div>
+    <%= form.number_field :stock %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
